@@ -1,0 +1,44 @@
+
+*** These modified files were found in JOE when it aborted on Thu Nov  5 16:52:26 2020
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+stcp31.py
+stcp31.py
+stcp31.py
+stcp32.py
+stcp32.py
+stcp32.py
+stcp32.py
+stcp32.py
+stcp32.py
+stcp4.py
+ctcp31.py
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
+
+*** These modified files were found in JOE when it aborted on Thu Nov  5 23:50:34 2020
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+ctcp4.py
+ctcp.py
+ctcp1.py
+ctcp1.py
+cudp.py
+cudp.py
+ctcp31.py
+ctcp31.py
+ctcp4.py
+ctcp.py
+ctcp31.py
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc

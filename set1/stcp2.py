@@ -1,0 +1,20 @@
+#set1
+#numarul vocalelor
+import socket
+s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind(("0.0.0.0",7777))
+s.listen(5)
+while True:
+    cs, addr=s.accept()
+    print("Client Nou:")
+    b=cs.recv(10)
+    a=str(b)
+    list=['a','e','i','o','u']
+    i=0
+    for l in a:
+        if l in list:
+            i=i+1
+    print("Am primit: "+str(a)+" de la "+str(addr))
+    cs.send(str(i))
+    cs.close()
+    print("Connection ended")

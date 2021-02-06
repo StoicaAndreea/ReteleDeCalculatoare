@@ -1,0 +1,7 @@
+import socket
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.connect(("127.0.0.1",7777))
+info=raw_input("dati o lista de numere, separata prin virgule: ")
+s.send(info)
+print(s.recv(10))
+s.close()

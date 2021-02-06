@@ -1,0 +1,17 @@
+#set2
+#serverul intoarce cuvantul cu cele mai multe caractere
+import socket
+s=socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.bind(("0.0.0.0",5555))
+while True:    
+    data,addr=s.recvfrom(100)
+    list=data.split(",")	
+    maxc=0
+    max=list[0]
+    for el in list:
+        if len(el)>maxc:
+            maxc=len(el)
+            max=el
+    print("Am primit "+str(data)+" de la "+str(addr))
+    s.sendto(str(max),addr)
+    print("conexiune inchisa cu "+str(addr))
